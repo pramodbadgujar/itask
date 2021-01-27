@@ -1,0 +1,41 @@
+Practical Task (CodeIgniter)
+
+Tables with basic details
+users
+	- id
+	- first_name
+	- last_name
+	- email
+	- password
+	- is_admin (1,0)
+	- created_on
+Note : Add necessary fields or create necessary for differentiate Admin and User
+
+products
+	- id
+	- name 
+	- category_id (Get reference from categories table)
+	- image
+	- sku
+	- quantity
+	- price
+	- added_by
+	- created_on
+Note : You can add additional fields if required
+ 
+- Create module for login as admin (Add default admin account in database table)
+- Module for add products from admin panel, select category if category has sub category then select sub category
+- Module for list products in admin panel
+- List products in web
+- Add products in Cart
+- Order products with managing quantity (Login as a user is not logged in while purchasing products)
+
+Note : Validate every fields for Create user, Add products, Purchase products
+
+
+- REST API (CodeIgniter)
+	- API for register as user
+	- API for list products
+	- API list categories and its sub category (Tree view) ref table "categories"
+
+
